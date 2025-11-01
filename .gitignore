@@ -1,0 +1,24 @@
+# Ambiente Virtual do Python
+# Ignora a pasta inteira do ambiente virtual
+venv/
+.venv/
+
+# Arquivos de ambiente (MUITO IMPORTANTE!)
+# Contém senhas de banco, chaves de API, etc.
+.env
+*.env
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de banco de dados locais (Ex: se estiver usando SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Metadados de IDEs (Opcional, mas boa prática)
+.idea/
+.vscode/
